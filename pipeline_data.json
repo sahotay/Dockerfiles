@@ -1,0 +1,1879 @@
+{
+"source": "userInterface",
+"revision": 104,
+"description": null,
+"createdBy": {
+"displayName": "Anjaneyulu Dhamera",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/10b757f9-62fb-6f78-a581-5b59c7c5b3bc",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.MTBiNzU3ZjktNjJmYi03Zjc4LWE1ODEtNWI1OWM3YzViM2Jj"
+}
+},
+"id": "10b757f9-62fb-6f78-a581-5b59c7c5b3bc",
+"uniqueName": "anjaneyulu.dhamera@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.MTBiNzU3ZjktNjJmYi03Zjc4LWE1ODEtNWI1OWM3YzViM2Jj",
+"descriptor": "aad.MTBiNzU3ZjktNjJmYi03Zjc4LWE1ODEtNWI1OWM3YzViM2Jj"
+},
+"createdOn": "2021-02-11T21:02:46.52Z",
+"modifiedBy": {
+"displayName": "Harshavardhan Reddy Malipatlolla",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/ac64addc-cddd-6339-bf70-621280078daa",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.YWM2NGFkZGMtY2RkZC03MzM5LWJmNzAtNjIxMjgwMDc4ZGFh"
+}
+},
+"id": "ac64addc-cddd-6339-bf70-621280078daa",
+"uniqueName": "Harshavardhan.Reddy.Malipatlolla@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.YWM2NGFkZGMtY2RkZC03MzM5LWJmNzAtNjIxMjgwMDc4ZGFh",
+"descriptor": "aad.YWM2NGFkZGMtY2RkZC03MzM5LWJmNzAtNjIxMjgwMDc4ZGFh"
+},
+"modifiedOn": "2021-11-17T20:06:42.937Z",
+"isDeleted": false,
+"lastRelease": {
+"id": 366101,
+"name": "Release-273",
+"artifacts": [],
+"_links": {},
+"description": "",
+"releaseDefinition": {
+"id": 7846,
+"projectReference": null,
+"_links": {}
+},
+"createdOn": "2021-11-17T23:04:14.523Z",
+"createdBy": {
+"displayName": "Harshavardhan Reddy Malipatlolla",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/ac64addc-cddd-6339-bf70-621280078daa",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.YWM2NGFkZGMtY2RkZC03MzM5LWJmNzAtNjIxMjgwMDc4ZGFh"
+}
+},
+"id": "ac64addc-cddd-6339-bf70-621280078daa",
+"uniqueName": "Harshavardhan.Reddy.Malipatlolla@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.YWM2NGFkZGMtY2RkZC03MzM5LWJmNzAtNjIxMjgwMDc4ZGFh",
+"descriptor": "aad.YWM2NGFkZGMtY2RkZC03MzM5LWJmNzAtNjIxMjgwMDc4ZGFh"
+}
+},
+"variables": {
+"alias": {
+"value": "consolidation"
+},
+"appName": {
+"value": ""
+},
+"backoutURL": {
+"value": "Initial Release",
+"allowOverride": true
+},
+"changeProduct": {
+"value": "Consolidation"
+},
+"changeRequest": {
+"value": ""
+},
+"CypressOptions": {
+"value": ""
+},
+"KeycloakClient": {
+"value": "transit-guide-ui"
+},
+"KeycloakRealm": {
+"value": "security360"
+},
+"KubePodName": {
+"value": "app-orderplanning-transit-guide"
+},
+"Namespace": {
+"value": "transit-guide-dev"
+},
+"Password": {
+"value": "hGgr2ctdajsHY53K"
+},
+"product": {
+"value": "transit-guide"
+},
+"scheduledStartDate": {
+"value": "10/01/2021 8:00 PM",
+"allowOverride": true
+},
+"Username": {
+"value": "utst1130"
+}
+},
+"variableGroups": [
+1374
+],
+"environments": [
+{
+"id": 31816,
+"name": "DEV Deploy-GKE",
+"rank": 1,
+"owner": {
+"displayName": "Muneeswaran Balasubramanian",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/e5715c2f-7ac7-6130-b041-a860b7557175",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1"
+}
+},
+"id": "e5715c2f-7ac7-6130-b041-a860b7557175",
+"uniqueName": "Muneeswaran.Balasubramanianan@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1",
+"descriptor": "aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1"
+},
+"variables": {},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 117853
+}
+],
+"approvalOptions": {
+"requiredApproverCount": 0,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 117858
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 117859
+}
+],
+"approvalOptions": {
+"requiredApproverCount": 0,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "afterSuccessfulGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": [
+{
+"alias": "app_orderplanning_transit_guide",
+"artifactType": "Build",
+"artifactDownloadMode": "All",
+"artifactItems": []
+}
+]
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent phase",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+"version": "2.*",
+"name": "Set External flag",
+"refName": "",
+"enabled": false,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"targetType": "inline",
+"filePath": "",
+"arguments": "",
+"script": "# Write your PowerShell commands here.\nWrite-Host \"##vso[task.setvariable variable=isExternal]'true'\"\n",
+"errorActionPreference": "stop",
+"warningPreference": "default",
+"informationPreference": "default",
+"verbosePreference": "default",
+"debugPreference": "default",
+"failOnStderr": "false",
+"showWarnings": "false",
+"ignoreLASTEXITCODE": "false",
+"pwsh": "false",
+"workingDirectory": "",
+"runScriptInSeparateScope": "false"
+}
+},
+{
+"environment": {},
+"taskId": "d271bfd4-0d02-489b-9cd8-f2a4b68e64e1",
+"version": "1.*",
+"name": "Task group: (Mono-Repo) Kubernetes Manifest Deploy $(ADO-API-PAT-APIkey-Plain)",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"ADO-API-PAT-APIkey-Plain": "",
+"alias": "$(alias)",
+"azureSubscription": "d09b4b99-5526-4c71-909e-18a4bab1cfc8",
+"clusterMaster": "d5084ef5-e80f-444a-b507-65dbe2b2c21c",
+"configEnv": "$(configEnv)",
+"configServer": "a38d0388-a8b1-49fe-adf7-5bf034d30541",
+"date": "$(date)",
+"deployEnv": "DEV",
+"DTKeyVaultName": "$(DTKeyVaultName)",
+"Dynatrace-API-TOKEN": "",
+"keyvaultName": "$(keyvaultName)",
+"product": "$(product)",
+"ServiceName": "app_orderplanning_transit_guide",
+"springProfile": "DEV,KUBE"
+}
+}
+]
+},
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": [
+{
+"alias": "app_orderplanning_transit_guide",
+"artifactType": "Build",
+"artifactDownloadMode": "All",
+"artifactItems": []
+}
+]
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 2,
+"phaseType": "agentBasedDeployment",
+"name": "POST Install - Smoke Tests with Cypress",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "4cef2651-d7c7-41db-8ced-81d90eb58569",
+"version": "1.*",
+"name": "Task group: Transit Guide - Cypress UI Smoke Test - Post Install https://scm-dev.nonprod.jbhunt.com/transit-guide",
+"refName": "",
+"enabled": false,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"BaseURL": "https://scm-dev.nonprod.jbhunt.com/transit-guide/",
+"CaptureVideo": "",
+"CypressOptions": "$(CypressOptions)",
+"KeycloakClient": "$(KeycloakClient)",
+"KeycloakRealm": "$(KeycloakRealm)",
+"KeycloakRoot": "",
+"KubePodName": "$(KubePodName)",
+"KubeServicesConnection": "ee0cceb7-e943-4ec7-9cda-a0a02fc3fcdc",
+"Namespace": "$(Namespace)",
+"Password": "$(password)",
+"Pipeline.Workspace": "$(System.ArtifactsDirectory)",
+"SkipRolloutUndo": "",
+"Username": "$(username)"
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": true,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [
+{
+"name": "ReleaseStarted",
+"conditionType": "event",
+"value": ""
+}
+],
+"executionPolicy": {
+"concurrencyCount": 0,
+"queueDepthCount": 0
+},
+"schedules": [],
+"currentRelease": {
+"id": 366101,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/366101",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "development"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "True"
+}
+},
+"preDeploymentGates": {
+"id": 160414,
+"gatesOptions": {
+"isEnabled": true,
+"timeout": 1440,
+"samplingInterval": 15,
+"stabilizationTime": 0,
+"minimumSuccessDuration": 0
+},
+"gates": [
+{
+"tasks": [
+{
+"environment": {},
+"taskId": "9c3e8943-130d-4c78-ac63-8af81df62dfb",
+"version": "1.*",
+"name": "Invoke REST API: GET",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"connectedServiceNameSelector": "connectedServiceName",
+"connectedServiceName": "9a583b63-880f-408d-94b5-7486e9aaea5e",
+"connectedServiceNameARM": "",
+"method": "GET",
+"headers": "",
+"body": "",
+"urlSuffix": "",
+"waitForCompletion": "false",
+"successCriteria": ""
+}
+}
+]
+}
+]
+},
+"postDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/31816"
+},
+{
+"id": 31818,
+"name": "TEST Deploy-GKE",
+"rank": 2,
+"owner": {
+"displayName": "Muneeswaran Balasubramanian",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/e5715c2f-7ac7-6130-b041-a860b7557175",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1"
+}
+},
+"id": "e5715c2f-7ac7-6130-b041-a860b7557175",
+"uniqueName": "Muneeswaran.Balasubramanianan@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1",
+"descriptor": "aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1"
+},
+"variables": {},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 117855
+}
+],
+"approvalOptions": {
+"requiredApproverCount": 0,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 117856
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 117861
+}
+],
+"approvalOptions": {
+"requiredApproverCount": 0,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "afterSuccessfulGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent phase",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+"version": "2.*",
+"name": "Set External Flag",
+"refName": "",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"targetType": "inline",
+"filePath": "",
+"arguments": "",
+"script": "# Write your PowerShell commands here.\n\nWrite-Host \"##vso[task.setvariable variable=isExternal]'true'\"\n",
+"errorActionPreference": "stop",
+"warningPreference": "default",
+"informationPreference": "default",
+"verbosePreference": "default",
+"debugPreference": "default",
+"failOnStderr": "false",
+"showWarnings": "false",
+"ignoreLASTEXITCODE": "false",
+"pwsh": "false",
+"workingDirectory": "",
+"runScriptInSeparateScope": "false"
+}
+},
+{
+"environment": {},
+"taskId": "d271bfd4-0d02-489b-9cd8-f2a4b68e64e1",
+"version": "1.*",
+"name": "Task group: (Mono-Repo) Kubernetes Manifest Deploy $(ADO-API-PAT-APIkey-Plain)",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"ADO-API-PAT-APIkey-Plain": "",
+"alias": "$(alias)",
+"azureSubscription": "d09b4b99-5526-4c71-909e-18a4bab1cfc8",
+"clusterMaster": "2d436a00-95f5-4583-a913-190786e33ac2",
+"configEnv": "$(configEnv)",
+"configServer": "f629f2c9-d440-4132-91b7-d1b0cee6757e",
+"date": "$(date)",
+"deployEnv": "TEST",
+"DTKeyVaultName": "$(DTKeyVaultName)",
+"Dynatrace-API-TOKEN": "",
+"keyvaultName": "$(keyvaultName)",
+"product": "$(product)",
+"ServiceName": "app_orderplanning_transit_guide",
+"springProfile": "TEST,KUBE"
+}
+}
+]
+},
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [
+"npm"
+],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 2,
+"phaseType": "agentBasedDeployment",
+"name": "POST Install - Smoke Tests with Cypress",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "4cef2651-d7c7-41db-8ced-81d90eb58569",
+"version": "1.*",
+"name": "Task group: Transit Guide - Cypress UI Smoke Test - Post Install  https://scm-tst.nonprod.jbhunt.com/transit-guide/",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"BaseURL": "https://scm-tst.nonprod.jbhunt.com/transit-guide/",
+"CaptureVideo": "",
+"CypressOptions": "$(CypressOptions)",
+"KeycloakClient": "$(KeycloakClient)",
+"KeycloakRealm": "$(KeycloakRealm)",
+"KeycloakRoot": "https://sso-tst.nonprod.jbhunt.com",
+"KubePodName": "$(KubePodName)",
+"KubeServicesConnection": "ee0cceb7-e943-4ec7-9cda-a0a02fc3fcdc",
+"Namespace": "$(Namespace)",
+"Password": "$(password)",
+"Pipeline.Workspace": "$(System.ArtifactsDirectory)",
+"SkipRolloutUndo": "",
+"Username": "$(username)"
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": true,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [
+{
+"name": "DEV Deploy-GKE",
+"conditionType": "environmentState",
+"value": "4"
+}
+],
+"executionPolicy": {
+"concurrencyCount": 0,
+"queueDepthCount": 0
+},
+"schedules": [],
+"currentRelease": {
+"id": 366101,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/366101",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "unmapped"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "True"
+}
+},
+"preDeploymentGates": {
+"id": 160415,
+"gatesOptions": {
+"isEnabled": true,
+"timeout": 1440,
+"samplingInterval": 15,
+"stabilizationTime": 0,
+"minimumSuccessDuration": 0
+},
+"gates": [
+{
+"tasks": [
+{
+"environment": {},
+"taskId": "9c3e8943-130d-4c78-ac63-8af81df62dfb",
+"version": "1.*",
+"name": "Invoke REST API: GET",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"connectedServiceNameSelector": "connectedServiceName",
+"connectedServiceName": "9a583b63-880f-408d-94b5-7486e9aaea5e",
+"connectedServiceNameARM": "",
+"method": "GET",
+"headers": "",
+"body": "",
+"urlSuffix": "",
+"waitForCompletion": "false",
+"successCriteria": ""
+}
+}
+]
+}
+]
+},
+"postDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/31818"
+},
+{
+"id": 42109,
+"name": "PROD",
+"rank": 4,
+"owner": {
+"displayName": "Muneeswaran Balasubramanian",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/e5715c2f-7ac7-6130-b041-a860b7557175",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1"
+}
+},
+"id": "e5715c2f-7ac7-6130-b041-a860b7557175",
+"uniqueName": "Muneeswaran.Balasubramanianan@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1",
+"descriptor": "aad.ZTU3MTVjMmYtN2FjNy03MTMwLWIwNDEtYTg2MGI3NTU3MTc1"
+},
+"variables": {
+"cadence": {
+"value": "w"
+}
+},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": false,
+"isNotificationOn": false,
+"approver": {
+"displayName": "[TEAM FOUNDATION]\\Change And Release Management",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/200ccacb-f9d0-4dc2-8500-3d7337640b47",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI5NDYzNTA3MzYtMzkxOTUyMzE0MC0yOTc4NzExMzc2LTM5Mzc0MDg2MzM"
+}
+},
+"id": "200ccacb-f9d0-4dc2-8500-3d7337640b47",
+"uniqueName": "vstfs:///Framework/IdentityDomain/6a4e8f0a-f91a-4186-9874-79261d4a2e4c\\Change And Release Management",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI5NDYzNTA3MzYtMzkxOTUyMzE0MC0yOTc4NzExMzc2LTM5Mzc0MDg2MzM",
+"isContainer": true,
+"descriptor": "aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI5NDYzNTA3MzYtMzkxOTUyMzE0MC0yOTc4NzExMzc2LTM5Mzc0MDg2MzM"
+},
+"id": 158418
+}
+],
+"approvalOptions": {
+"requiredApproverCount": 0,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 158419
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 158420
+}
+],
+"approvalOptions": {
+"requiredApproverCount": 0,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "afterSuccessfulGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent phase",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+"version": "2.*",
+"name": "Set External Flag",
+"refName": "",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"targetType": "inline",
+"filePath": "",
+"arguments": "",
+"script": "# Write your PowerShell commands here.\n\nWrite-Host \"##vso[task.setvariable variable=isExternal]'true'\"\n",
+"errorActionPreference": "stop",
+"warningPreference": "default",
+"informationPreference": "default",
+"verbosePreference": "default",
+"debugPreference": "default",
+"failOnStderr": "false",
+"showWarnings": "false",
+"ignoreLASTEXITCODE": "false",
+"pwsh": "false",
+"workingDirectory": "",
+"runScriptInSeparateScope": "false"
+}
+},
+{
+"environment": {},
+"taskId": "d271bfd4-0d02-489b-9cd8-f2a4b68e64e1",
+"version": "1.*",
+"name": "Task group: (Mono-Repo) Kubernetes Manifest Deploy $(ADO-API-PAT-APIkey-Plain)",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"ADO-API-PAT-APIkey-Plain": "",
+"alias": "$(alias)",
+"azureSubscription": "8e33e115-365c-4c26-8536-4af3fc6d47e4",
+"clusterMaster": "bb52988a-91f4-410c-844e-4fc5705f6ee0",
+"configEnv": "$(configEnv)",
+"configServer": "b051a162-ccf4-4568-a76c-23da7040bb64",
+"date": "$(date)",
+"deployEnv": "PROD",
+"DTKeyVaultName": "$(DTKeyVaultName)",
+"Dynatrace-API-TOKEN": "",
+"keyvaultName": "$(keyvaultName)",
+"product": "$(product)",
+"ServiceName": "app_orderplanning_transit_guide",
+"springProfile": "PROD,KUBE"
+}
+}
+]
+},
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 2,
+"phaseType": "agentBasedDeployment",
+"name": "POST Install - Smoke Tests with Cypress",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "4cef2651-d7c7-41db-8ced-81d90eb58569",
+"version": "1.*",
+"name": "Task group: Transit Guide - Cypress UI Smoke Test - Post Install  https://scm.jbhunt.com/transit-guide/",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"BaseURL": "https://scm.jbhunt.com/transit-guide/",
+"CaptureVideo": "",
+"CypressOptions": "$(CypressOptions)",
+"KeycloakClient": "$(KeycloakClient)",
+"KeycloakRealm": "$(KeycloakRealm)",
+"KeycloakRoot": "https://sso.jbhunt.com",
+"KubePodName": "$(KubePodName)",
+"KubeServicesConnection": "bb52988a-91f4-410c-844e-4fc5705f6ee0",
+"Namespace": "$(Namespace)",
+"Password": "$(password)",
+"Pipeline.Workspace": "$(System.ArtifactsDirectory)",
+"SkipRolloutUndo": "",
+"Username": "$(username)"
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": true,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [
+{
+"name": "Create Change Request",
+"conditionType": "environmentState",
+"value": "4"
+}
+],
+"executionPolicy": {
+"concurrencyCount": 0,
+"queueDepthCount": 0
+},
+"schedules": [],
+"currentRelease": {
+"id": 359375,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/359375",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "testing"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "True"
+}
+},
+"preDeploymentGates": {
+"id": 158423,
+"gatesOptions": {
+"isEnabled": true,
+"timeout": 60,
+"samplingInterval": 5,
+"stabilizationTime": 0,
+"minimumSuccessDuration": 0
+},
+"gates": [
+{
+"tasks": [
+{
+"environment": {},
+"taskId": "537fdb7a-a601-4537-aa70-92645a2b5ce4",
+"version": "1.*",
+"name": "Azure Function: CC Approval",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"function": "$(SCSMUpdateChangeUrl)",
+"key": "$(SCSMUpdateChangeCode)",
+"method": "POST",
+"headers": "{\n\"Content-Type\":\"application/json\", \n\"PlanUrl\": \"$(system.CollectionUri)\", \n\"ProjectId\": \"$(system.TeamProjectId)\", \n\"HubName\": \"$(system.HostType)\", \n\"PlanId\": \"$(system.PlanId)\", \n\"JobId\": \"$(system.JobId)\", \n\"TimelineId\": \"$(system.TimelineId)\", \n\"TaskInstanceId\": \"$(system.TaskInstanceId)\", \n\"AuthToken\": \"$(system.AccessToken)\"\n}",
+"queryParameters": "subscription-key=$(SCSMUpdateChangeKey)",
+"body": "{\n\"crnumber\" : \"$(changeRequest)\",\n\"action\" : \"approve\",\n\"activitytitle\" : \"Change Control Approval\",\n\"releaseid\" : \"$(release.releaseid)\",\n\"definitionenvironmentid\" : \"$(release.definitionenvironmentid)\",\n\"adoapprovalgatetype\" : \"pre\"\n}",
+"waitForCompletion": "false",
+"successCriteria": ""
+}
+}
+]
+},
+{
+"tasks": [
+{
+"environment": {},
+"taskId": "537fdb7a-a601-4537-aa70-92645a2b5ce4",
+"version": "1.*",
+"name": "Azure Function: Send ReleaseUrl Comment",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"function": "$(SCSMUpdateChangeUrl)",
+"key": "$(SCSMUpdateChangeCode)",
+"method": "POST",
+"headers": "{\n\"Content-Type\":\"application/json\", \n\"PlanUrl\": \"$(system.CollectionUri)\", \n\"ProjectId\": \"$(system.TeamProjectId)\", \n\"HubName\": \"$(system.HostType)\", \n\"PlanId\": \"$(system.PlanId)\", \n\"JobId\": \"$(system.JobId)\", \n\"TimelineId\": \"$(system.TimelineId)\", \n\"TaskInstanceId\": \"$(system.TaskInstanceId)\", \n\"AuthToken\": \"$(system.AccessToken)\"\n}",
+"queryParameters": "subscription-key=$(SCSMUpdateChangeKey)",
+"body": "{\n    \"comment\":  \"ADO approved from $(Release.ReleaseWebURL)\",\n    \"commententeredby\":  \"ADO Automation\",\n    \"crnumber\":  \"$(changeRequest)\",\n    \"action\":  \"update\"\n}",
+"waitForCompletion": "false",
+"successCriteria": ""
+}
+}
+]
+}
+]
+},
+"postDeploymentGates": {
+"id": 158425,
+"gatesOptions": {
+"isEnabled": true,
+"timeout": 60,
+"samplingInterval": 5,
+"stabilizationTime": 0,
+"minimumSuccessDuration": 0
+},
+"gates": [
+{
+"tasks": [
+{
+"environment": {},
+"taskId": "537fdb7a-a601-4537-aa70-92645a2b5ce4",
+"version": "1.*",
+"name": "Azure Function:  Close CR",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"function": "$(SCSMUpdateChangeUrl)",
+"key": "$(SCSMUpdateChangeCode)",
+"method": "POST",
+"headers": "{\n\"Content-Type\":\"application/json\", \n\"PlanUrl\": \"$(system.CollectionUri)\", \n\"ProjectId\": \"$(system.TeamProjectId)\", \n\"HubName\": \"$(system.HostType)\", \n\"PlanId\": \"$(system.PlanId)\", \n\"JobId\": \"$(system.JobId)\", \n\"TimelineId\": \"$(system.TimelineId)\", \n\"TaskInstanceId\": \"$(system.TaskInstanceId)\", \n\"AuthToken\": \"$(system.AccessToken)\"\n}",
+"queryParameters": "subscription-key=$(SCSMUpdateChangeKey)",
+"body": "{\n\"crnumber\" : \"$(changeRequest)\",\n\"action\": \"complete\",\n\"activitytitle\": \"ADO Promote Result\",\n\"implementationresults\": \"Implemented\",\n\"postimplementationreview\": \"ADO Release Completed\"\n}",
+"waitForCompletion": "false",
+"successCriteria": ""
+}
+}
+]
+}
+]
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/42109"
+},
+{
+"id": 42110,
+"name": "Create Change Request",
+"rank": 3,
+"owner": {
+"displayName": "Mitchell Phillips",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/1dc076e9-efd0-639a-b875-4e96e9c1a67f",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.MWRjMDc2ZTktZWZkMC03MzlhLWI4NzUtNGU5NmU5YzFhNjdm"
+}
+},
+"id": "1dc076e9-efd0-639a-b875-4e96e9c1a67f",
+"uniqueName": "Mitchell.Phillips@jbhunt.com",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aad.MWRjMDc2ZTktZWZkMC03MzlhLWI4NzUtNGU5NmU5YzFhNjdm",
+"descriptor": "aad.MWRjMDc2ZTktZWZkMC03MzlhLWI4NzUtNGU5NmU5YzFhNjdm"
+},
+"variables": {},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 158421
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 158422
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": false,
+"isNotificationOn": false,
+"approver": {
+"displayName": "[TEAM FOUNDATION]\\ACL_CR_Approvers_Managers",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/9b782788-4bb9-41f5-b2b2-36f4ad2ee790",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTM2MDcwMzA1NDItMjkzODQ5ODM3NC0yNDQwODc2MjgwLTM1NDg2OTkzODY"
+}
+},
+"id": "9b782788-4bb9-41f5-b2b2-36f4ad2ee790",
+"uniqueName": "vstfs:///Framework/IdentityDomain/6a4e8f0a-f91a-4186-9874-79261d4a2e4c\\ACL_CR_Approvers_Managers",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTM2MDcwMzA1NDItMjkzODQ5ODM3NC0yNDQwODc2MjgwLTM1NDg2OTkzODY",
+"isContainer": true,
+"descriptor": "aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTM2MDcwMzA1NDItMjkzODQ5ODM3NC0yNDQwODc2MjgwLTM1NDg2OTkzODY"
+},
+"id": 158424
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 1001,
+"demands": [],
+"enableAccessToken": true,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent job",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "8655bed3-6232-4040-b962-7cc32fe23325",
+"version": "2.*",
+"name": "[Change Automation] Create Change Request",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"backoutURL": "$(backoutURL)",
+"changeProduct": "$(changeProduct)",
+"changeRequest": "$(changeRequest)",
+"CICD-ADO-PAT-PIDCIE1": "",
+"keyvaultName": "$(keyvaultName)",
+"scheduledStartDate": "$(scheduledStartDate)"
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": false,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [],
+"executionPolicy": {
+"concurrencyCount": 1,
+"queueDepthCount": 1
+},
+"schedules": [],
+"currentRelease": {
+"id": 359375,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/359375",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "unmapped"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "False"
+}
+},
+"preDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"postDeploymentGates": {
+"id": 158426,
+"gatesOptions": {
+"isEnabled": true,
+"timeout": 60,
+"samplingInterval": 5,
+"stabilizationTime": 0,
+"minimumSuccessDuration": 0
+},
+"gates": [
+{
+"tasks": [
+{
+"environment": {},
+"taskId": "537fdb7a-a601-4537-aa70-92645a2b5ce4",
+"version": "1.*",
+"name": "Azure Function: Manager Approval",
+"enabled": true,
+"alwaysRun": false,
+"continueOnError": false,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "task",
+"overrideInputs": {},
+"condition": "succeeded()",
+"inputs": {
+"function": "$(SCSMUpdateChangeUrl)",
+"key": "$(SCSMUpdateChangeCode)",
+"method": "POST",
+"headers": "{\n\"Content-Type\":\"application/json\", \n\"PlanUrl\": \"$(system.CollectionUri)\", \n\"ProjectId\": \"$(system.TeamProjectId)\", \n\"HubName\": \"$(system.HostType)\", \n\"PlanId\": \"$(system.PlanId)\", \n\"JobId\": \"$(system.JobId)\", \n\"TimelineId\": \"$(system.TimelineId)\", \n\"TaskInstanceId\": \"$(system.TaskInstanceId)\", \n\"AuthToken\": \"$(system.AccessToken)\"\n}",
+"queryParameters": "subscription-key=$(SCSMUpdateChangeKey)",
+"body": "{\n\"crnumber\" : \"$(changeRequest)\",\n\"action\" : \"approve\",\n\"activitytitle\" : \"Manager Approval\",\n\"releaseid\" : \"$(release.releaseid)\",\n\"definitionenvironmentid\" : \"$(release.definitionenvironmentid)\",\n\"adoapprovalgatetype\" : \"post\"\n}",
+"waitForCompletion": "false",
+"successCriteria": ""
+}
+}
+]
+}
+]
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/42110"
+},
+{
+"id": 42358,
+"name": "PRD-Rollback Central",
+"rank": 5,
+"owner": {
+"displayName": "[TEAM FOUNDATION]\\CICD Engineering",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/b997ad39-0a38-49d6-8c16-fd5f82b10b27",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM"
+}
+},
+"id": "b997ad39-0a38-49d6-8c16-fd5f82b10b27",
+"uniqueName": "vstfs:///Framework/IdentityDomain/6a4e8f0a-f91a-4186-9874-79261d4a2e4c\\CICD Engineering",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM",
+"isContainer": true,
+"descriptor": "aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM"
+},
+"variables": {},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": false,
+"isNotificationOn": false,
+"approver": {
+"displayName": "[TEAM FOUNDATION]\\ACL_CR_Approvers_Managers",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/9b782788-4bb9-41f5-b2b2-36f4ad2ee790",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTM2MDcwMzA1NDItMjkzODQ5ODM3NC0yNDQwODc2MjgwLTM1NDg2OTkzODY"
+}
+},
+"id": "9b782788-4bb9-41f5-b2b2-36f4ad2ee790",
+"uniqueName": "vstfs:///Framework/IdentityDomain/6a4e8f0a-f91a-4186-9874-79261d4a2e4c\\ACL_CR_Approvers_Managers",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTM2MDcwMzA1NDItMjkzODQ5ODM3NC0yNDQwODc2MjgwLTM1NDg2OTkzODY",
+"isContainer": true,
+"descriptor": "aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTM2MDcwMzA1NDItMjkzODQ5ODM3NC0yNDQwODc2MjgwLTM1NDg2OTkzODY"
+},
+"id": 159397
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 159398
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 159399
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "afterSuccessfulGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent job",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "b876f9f8-2bf5-42e5-9d8b-7f52c414826c",
+"version": "1.*",
+"name": "Task group: Kubernetes - Rollout Undo Deployment",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"clusterMaster": "bb52988a-91f4-410c-844e-4fc5705f6ee0",
+"lowercaseRepoNameDash": "app-orderplanning-transit-guide",
+"namespace": "transit-guide",
+"revision": ""
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": false,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [],
+"executionPolicy": {
+"concurrencyCount": 1,
+"queueDepthCount": 0
+},
+"schedules": [],
+"currentRelease": {
+"id": 0,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/0",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "unmapped"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "False"
+}
+},
+"preDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"postDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/42358"
+},
+{
+"id": 42360,
+"name": "DEV-Rollback",
+"rank": 6,
+"owner": {
+"displayName": "[TEAM FOUNDATION]\\CICD Engineering",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/b997ad39-0a38-49d6-8c16-fd5f82b10b27",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM"
+}
+},
+"id": "b997ad39-0a38-49d6-8c16-fd5f82b10b27",
+"uniqueName": "vstfs:///Framework/IdentityDomain/6a4e8f0a-f91a-4186-9874-79261d4a2e4c\\CICD Engineering",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM",
+"isContainer": true,
+"descriptor": "aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM"
+},
+"variables": {},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 159403
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 159404
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 159405
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "afterSuccessfulGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent job",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "b876f9f8-2bf5-42e5-9d8b-7f52c414826c",
+"version": "1.*",
+"name": "Task group: Kubernetes - Rollout Undo Deployment",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"clusterMaster": "ee0cceb7-e943-4ec7-9cda-a0a02fc3fcdc",
+"lowercaseRepoNameDash": "app-orderplanning_transit-guide",
+"namespace": "transit-guide",
+"revision": ""
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": false,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [],
+"executionPolicy": {
+"concurrencyCount": 1,
+"queueDepthCount": 0
+},
+"schedules": [],
+"currentRelease": {
+"id": 0,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/0",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "unmapped"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "False"
+}
+},
+"preDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"postDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/42360"
+},
+{
+"id": 42361,
+"name": "TEST-Rollback",
+"rank": 7,
+"owner": {
+"displayName": "[TEAM FOUNDATION]\\CICD Engineering",
+"url": "https://spsprodcus2.vssps.visualstudio.com/A6a4e8f0a-f91a-4186-9874-79261d4a2e4c/_apis/Identities/b997ad39-0a38-49d6-8c16-fd5f82b10b27",
+"_links": {
+"avatar": {
+"href": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM"
+}
+},
+"id": "b997ad39-0a38-49d6-8c16-fd5f82b10b27",
+"uniqueName": "vstfs:///Framework/IdentityDomain/6a4e8f0a-f91a-4186-9874-79261d4a2e4c\\CICD Engineering",
+"imageUrl": "https://dev.azure.com/jbhunt/_apis/GraphProfile/MemberAvatars/aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM",
+"isContainer": true,
+"descriptor": "aadgp.Uy0xLTktMTU1MTM3NDI0NS0xMjA0NDAwOTY5LTI0MDI5ODY0MTMtMjE3OTQwODYxNi0zLTI0ODk0ODQwNTUtMTM3MDU1ODAxNi0zMTk0MTk4NTAzLTE4OTQxNzQxNTM"
+},
+"variables": {},
+"variableGroups": [],
+"preDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 159406
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "beforeGates"
+}
+},
+"deployStep": {
+"id": 159407
+},
+"postDeployApprovals": {
+"approvals": [
+{
+"rank": 1,
+"isAutomated": true,
+"isNotificationOn": false,
+"id": 159408
+}
+],
+"approvalOptions": {
+"requiredApproverCount": null,
+"releaseCreatorCanBeApprover": false,
+"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+"enforceIdentityRevalidation": false,
+"timeoutInMinutes": 0,
+"executionOrder": "afterSuccessfulGates"
+}
+},
+"deployPhases": [
+{
+"deploymentInput": {
+"parallelExecution": {
+"parallelExecutionType": "none"
+},
+"agentSpecification": null,
+"skipArtifactsDownload": false,
+"artifactsDownloadInput": {
+"downloadInputs": []
+},
+"queueId": 153,
+"demands": [],
+"enableAccessToken": false,
+"timeoutInMinutes": 0,
+"jobCancelTimeoutInMinutes": 1,
+"condition": "succeeded()",
+"overrideInputs": {}
+},
+"rank": 1,
+"phaseType": "agentBasedDeployment",
+"name": "Agent job",
+"refName": null,
+"workflowTasks": [
+{
+"environment": {},
+"taskId": "b876f9f8-2bf5-42e5-9d8b-7f52c414826c",
+"version": "1.*",
+"name": "Task group: Kubernetes - Rollout Undo Deployment",
+"refName": "",
+"enabled": true,
+"alwaysRun": true,
+"continueOnError": true,
+"timeoutInMinutes": 0,
+"retryCountOnTaskFailure": 0,
+"definitionType": "metaTask",
+"overrideInputs": {},
+"condition": "succeededOrFailed()",
+"inputs": {
+"clusterMaster": "db9d0a35-66ac-4130-808a-3ae8df014644",
+"lowercaseRepoNameDash": "app-orderplanning_transit-guide",
+"namespace": "transit-guide",
+"revision": ""
+}
+}
+]
+}
+],
+"environmentOptions": {
+"emailNotificationType": "OnlyOnFailure",
+"emailRecipients": "release.environment.owner;release.creator",
+"skipArtifactsDownload": false,
+"timeoutInMinutes": 0,
+"enableAccessToken": false,
+"publishDeploymentStatus": true,
+"badgeEnabled": false,
+"autoLinkWorkItems": false,
+"pullRequestDeploymentEnabled": false
+},
+"demands": [],
+"conditions": [],
+"executionPolicy": {
+"concurrencyCount": 1,
+"queueDepthCount": 0
+},
+"schedules": [],
+"currentRelease": {
+"id": 0,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/releases/0",
+"_links": {}
+},
+"retentionPolicy": {
+"daysToKeep": 400,
+"releasesToKeep": 25,
+"retainBuild": true
+},
+"processParameters": {},
+"properties": {
+"BoardsEnvironmentType": {
+"$type": "System.String",
+"$value": "unmapped"
+},
+"LinkBoardsWorkItems": {
+"$type": "System.String",
+"$value": "False"
+}
+},
+"preDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"postDeploymentGates": {
+"id": 0,
+"gatesOptions": null,
+"gates": []
+},
+"environmentTriggers": [],
+"badgeUrl": "https://vsrm.dev.azure.com/jbhunt/_apis/public/Release/badge/ba16f4d9-0711-421b-b696-fbbab1f00843/7846/42361"
+}
+],
+"artifacts": [
+{
+"sourceId": "ba16f4d9-0711-421b-b696-fbbab1f00843:32869",
+"type": "Build",
+"alias": "app_orderplanning_transit_guide",
+"definitionReference": {
+"artifactSourceDefinitionUrl": {
+"id": "https://dev.azure.com/jbhunt/_permalink/_build/index?collectionId=052eef5e-cfe4-4f59-b65c-b3911f1d5901&projectId=ba16f4d9-0711-421b-b696-fbbab1f00843&definitionId=32869",
+"name": ""
+},
+"defaultVersionBranch": {
+"id": "",
+"name": ""
+},
+"defaultVersionSpecific": {
+"id": "",
+"name": ""
+},
+"defaultVersionTags": {
+"id": "",
+"name": ""
+},
+"defaultVersionType": {
+"id": "latestType",
+"name": "Latest"
+},
+"definition": {
+"id": "32869",
+"name": "app-transit-guide"
+},
+"definitions": {
+"id": "",
+"name": ""
+},
+"IsMultiDefinitionType": {
+"id": "False",
+"name": "False"
+},
+"project": {
+"id": "ba16f4d9-0711-421b-b696-fbbab1f00843",
+"name": "EngAndTech"
+},
+"repository": {
+"id": "",
+"name": ""
+}
+},
+"isPrimary": true,
+"isRetained": false
+}
+],
+"triggers": [],
+"releaseNameFormat": "Release-$(rev:r)",
+"tags": [],
+"properties": {
+"DefinitionCreationSource": {
+"$type": "System.String",
+"$value": "ReleaseClone"
+},
+"IntegrateJiraWorkItems": {
+"$type": "System.String",
+"$value": "false"
+},
+"IntegrateBoardsWorkItems": {
+"$type": "System.String",
+"$value": "True"
+}
+},
+"id": 7846,
+"name": "kube_app_orderplanning_transit_guide",
+"path": "\\operationsexecution",
+"projectReference": null,
+"url": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/definitions/7846",
+"_links": {
+"self": {
+"href": "https://vsrm.dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_apis/Release/definitions/7846"
+},
+"web": {
+"href": "https://dev.azure.com/jbhunt/ba16f4d9-0711-421b-b696-fbbab1f00843/_release?definitionId=7846"
+}
+}
+}
